@@ -19,7 +19,7 @@ jobs:
 
       - name: Calculate version
         id: semver-app
-        uses: paulhatch/semantic-version@v5
+        uses: paulhatch/semantic-version@v6.0.2
         with:
           tag_prefix: ""
           major_pattern: "BREAKING CHANGE"
