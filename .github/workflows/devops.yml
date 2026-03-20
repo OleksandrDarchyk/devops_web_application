@@ -50,6 +50,7 @@ jobs:
         with:
           tag: ${{ steps.semver-app.outputs.version }}
           generateReleaseNotes: true
+          skipIfReleaseExists: true
           body: |
             This release includes the following container image:
             ${{ env.IMAGE_NAME }}:${{ steps.semver-app.outputs.version }}
