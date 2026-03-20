@@ -1,0 +1,5 @@
+﻿services:
+  web:
+    image: ghcr.io/oleksandrdarchyk/devops_web_application:staging
+    ports:
+      - "8000:8080"
